@@ -1,0 +1,53 @@
+{
+  "name": "@nicolaspearson/accesscontrol",
+  "version": "0.0.9",
+  "description": "Role Based Access Control",
+  "author": "Nicolas Pearson",
+  "license": "MIT",
+  "main": "lib/src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib/src/index.js",
+    "lib"
+  ],
+  "types": "lib/src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolaspearson/accesscontrol.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "accesscontrol",
+    "node",
+    "rbac"
+  ],
+  "scripts": {
+    "build": "tsc -b -v",
+    "test": "yarn build && jest --coverage --verbose --no-cache",
+    "lint": "tslint --project .",
+    "ncu:u": "ncu -u"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.8",
+    "husky": "^4.0.10",
+    "jest": "^24.9.0",
+    "npm-check-updates": "^4.0.1",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.3.0",
+    "tslint": "^5.20.1",
+    "tslint-config-airbnb": "^5.11.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn build"
+    }
+  }
+}

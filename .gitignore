@@ -1,0 +1,6 @@
+/node_modules/
+/test/.coverage/
+
+.DS_Store
+tsconfig.tsbuildinfo
+yarn-error.log

@@ -1,0 +1,22 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint-config-airbnb"],
+  "rules": {
+    "align": false,
+    "import-name": false,
+    "no-duplicate-variable": true,
+    "no-boolean-literal-compare": false,
+    "no-consecutive-blank-lines": true,
+    "quotemark": [true, "single"],
+    "member-access": [false],
+    "ordered-imports": [true],
+    "max-line-length": [true, 100],
+    "member-ordering": [false],
+    "interface-name": [false],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "no-unused-variable": false
+  },
+  "rulesDirectory": []
+}
