@@ -1,6 +1,6 @@
 {
-  "name": "@nicolaspearson/accesscontrol",
-  "version": "0.0.9",
+  "name": "ts-access-control",
+  "version": "0.0.1",
   "description": "Role Based Access Control",
   "author": "Nicolas Pearson",
   "license": "MIT",
@@ -16,15 +16,13 @@
   "types": "lib/src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicolaspearson/accesscontrol.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "url": "https://github.com/nicolaspearson/ts-access-control.git"
   },
   "keywords": [
     "accesscontrol",
     "node",
-    "rbac"
+    "rbac",
+    "typescript"
   ],
   "scripts": {
     "build": "tsc -b -v",

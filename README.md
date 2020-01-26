@@ -29,20 +29,20 @@ yarn test
 ## Installation
 
 ```bash
-yarn add @nicolaspearson/accesscontrol
+yarn add ts-access-control
 ```
 
 ## Publishing
 
 To publish a new version of the package, firstly bump the version in the `package.json` file,
-then cut a new release on [Github](https://github.com/nicolaspearson/accesscontrol/releases). This
-will automatically initiate the `publish` Github Action workflow and publish a new version to
-[Github Packages](https://github.com/nicolaspearson/accesscontrol/packages)
+then cut a new release on [Github](https://github.com/nicolaspearson/ts-access-control/releases).
+This will automatically initiate the `publish` Github Action workflow and publish a new version to
+[Github Packages](https://github.com/nicolaspearson/ts-access-control/packages)
 
 ## Guide
 
 ```typescript
-import { AccessControl } from 'accesscontrol';
+import { AccessControl } from 'ts-access-control';
 ```
 
 ### Basic Example
