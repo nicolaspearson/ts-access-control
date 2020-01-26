@@ -13,3 +13,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           WITH_V: true
+          DEFAULT_BUMP: patch

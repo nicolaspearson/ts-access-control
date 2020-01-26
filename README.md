@@ -2,6 +2,9 @@
 
 Many Role Based Access Control (RBAC) implementations differ, but the basics is widely adopted since it simulates real life role (job) assignments. But while data is getting more and more complex; you need to define policies on resources, subjects or even environments, this is called Attribute Based Access Control (ABAC).
 
+This is a slimmed down and forked version of the unmaintained
+[onury/accesscontrol](https://github.com/onury/accesscontrol) project.
+
 ## Core Features
 
 - Chainable, friendly API, e.g. `ac.can(role).create(resource)`
@@ -141,6 +144,8 @@ For example, an `admin` role can `create`, `read`, `update` or `delete` (CRUD) *
         </tr>   
     </tbody>
 </table>
+
+For example:
 
 ```typescript
 ac.grant('role').readOwn('resource');
