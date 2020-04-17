@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.1",
+    "@types/node": "^13.13.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "npm-check-updates": "^4.0.4",
