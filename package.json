@@ -37,7 +37,7 @@
     "jest": "^25.1.0",
     "npm-check-updates": "^4.0.4",
     "prettier": "^1.19.1",
-    "ts-jest": "^25.2.1",
+    "ts-jest": "^25.4.0",
     "tslint": "^6.0.0",
     "tslint-config-airbnb": "^5.11.2",
     "typescript": "^3.8.3"
