@@ -1,6 +1,6 @@
 {
   "name": "ts-access-control",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "Role Based Access Control",
   "author": "Nicolas Pearson",
   "license": "MIT",
