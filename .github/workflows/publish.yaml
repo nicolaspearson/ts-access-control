@@ -10,8 +10,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "13.x"
-          registry-url: "https://npm.pkg.github.com"
-          scope: "@nicolaspearson"
+          registry-url: https://registry.npmjs.org/
       - name: Install yarn dependencies
         run: yarn install --frozen-lockfile
       - name: Lint code
@@ -23,4 +22,4 @@ jobs:
       - name: Publish the package
         run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{ github.token }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
